@@ -1,0 +1,32 @@
+.aside {
+    /* background-color: #09c; */
+    width: 20%;
+    /* position: fixed; */
+}
+
+table {
+    width: 80% !important;
+    margin: auto;
+}
+form{
+    width: 55% ;
+    margin: auto
+}
+
+a{
+    text-decoration: none !important ;
+    margin: 5px;
+}
+ul li {
+    list-style: none ;
+    margin: 10px 0 ;
+}
+.myForm{
+    width: 250px ;
+    margin: auto ;
+    float: left;
+}
+
+.dropdown-box {
+    background-color: #09c !important;
+}
