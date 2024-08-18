@@ -9,7 +9,6 @@ class userOrders extends Controller
 {
     public function makeOrder(Request $request){
         // $UserID = auth()->user()->id ;
-        dd($request);
         $orders = DB::table('orders')->insert([
             'userId' => $request->id ,
             'productID' => $request->productID ,
