@@ -56,7 +56,8 @@ class APIAuthController extends Controller
         $response = [
             "message" =>"Welcome in system" ,
             "user" =>$user ,
-            "token" =>$token
+            "token" =>$token ,
+            "status" =>200
         ];
 
         return response($response , 200);
